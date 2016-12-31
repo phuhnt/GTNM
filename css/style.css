@@ -1,0 +1,346 @@
+/*Navbar header & brand*/
+.navbar-brand > img{
+	 vertical-align: bottom;
+}
+
+.navbar-default {
+	background-color: white;
+}
+
+/*Navbar right*/
+.navbar-default .navbar-right > .active > a, .navbar-default .navbar-right > .active >   
+ a:hover, .navbar-default .navbar-right > .active > a:focus {
+	color: white; 
+	background-color: #FF8000;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #FF8000;
+}
+
+.user{
+	padding-top: 30px;
+}
+.user .active{
+	color: white; 
+	background-color: #FF8000;
+}
+
+/*Navbar pills*/
+.navbar-default .nav-pills a{
+	text-decoration: none;
+	color: #FF8000;
+}
+
+/*@media (max-width: 768px) {
+  .nav-justified > li {
+    
+  }
+  .nav-justified > li > a  {
+    border-right: 1px solid #ddd !important;
+    border-radius: 4px 4px 0 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .nav-justified > li > a > span{
+  	display: inline-block;
+    font-size: 12px;
+	line-height: 26px;
+	width: 100%;
+
+  }
+}*/
+
+.navbar-default .nav-pills > .active > a, .navbar-default .nav-pills > .active >   
+ a:hover, .navbar-default .nav-pills > .active > a:focus {
+	color: white;
+	background-color: #FF8000;
+}
+
+/*Tiêu đề bài viết*/
+.name a{
+	color: black;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	box-decoration-break: clone;	
+}
+
+/*Button*/
+.btn-primary{
+	background-color: #FF8000;
+	border-color: #FF8000;
+}
+
+#dangky {
+	text-align: center;
+}
+
+legend{
+	color:#141823;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.form-control{
+	margin-bottom: 10px;
+}
+
+.well-sm{
+	padding: 30px;
+}
+
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+/*Trang đăng nhập*/
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title, .sing-up
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+/*Chi tiết nội dung*/
+p{
+	text-align: justify;
+}
+
+#movietitle{
+	color: black;
+	font-size: 15px;
+	padding: 10px;
+	font-weight: bold;
+	display: block;
+}
+
+#movieposter{
+	padding-left: 10px;
+}
+
+#movieinfo{
+	/*font-weight: bold;*/
+	display: block;
+
+}
+#moviedes{
+	padding: 0px 10px;
+	display: block;
+}
+
+#cast{
+	font-size: 13px;
+	display: block;
+}
+
+#cast img{
+	border-radius: 150px;
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+}
+
+#castname{
+	display: inline;
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+video{
+	padding: 0px 10px;
+	height: auto;
+	width: 100%;
+}
+
+/*Lịch chiếu*/
+.table th{
+	text-align: center;
+}
+
+span.groove{
+	border-style: groove;
+	width: 70px;
+	font-size: 13px;
+}
+
+.showstime{
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 100%;
+	width: auto;
+}
+
+/*Phần thư viện ảnh*/
+#links{
+	padding-left: 10px;
+}
+
+/*Phần đánh giá*/
+.reviews{
+	display: block;
+	color: #333;
+	font-size: 14px;
+	padding: 0px 10px;
+}
+
+.reviews p{
+	display: block;
+}
+
+.cangiua{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Bình luận*/
+.detailBox {
+    width:100%;
+    border:1px solid #bbb;
+    margin-top: 50px;
+}
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+}
+.titleBox label{
+  color:#444;
+  margin:0;
+  display:inline-block;
+}
+
+.commentBox {
+    padding:10px;
+    border-top:1px dotted #bbb;
+}
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    width:80%;
+}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+    width:18%;
+}
+.actionBox .form-group * {
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:200px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin:0;
+}
+.sub-text {
+    font-size:12px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:10px;
+}
+
+/*Footer*/
+.footer{
+	
+	background-color: #FF8000;
+	color: white; 
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 15px;
+}
+.footer p{
+	text-align: center;
+}

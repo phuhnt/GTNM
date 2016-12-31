@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Trolls 2016 | Lịch chiếu phim</title>
+
+	<!--Tích hợp bộ CSS của bootstrap-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<!--Css tự định nghĩa-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--Tích hợp jQuery-->
+	<script scr="js/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!--Tích hợp bộ JS của bootstrap-->
+	<script scr="js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Tích hợp CSS để tạo Thư viện ảnh -->
+	<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+
+	<!-- Tích hợp JS để tạo thư viện ảnh -->
+	<script src="js/blueimp-gallery.min.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+				</button>
+				<!--Navbar brand-->
+				<a class="navbar-brand img-responsive" href="index.html"><img src="images/icon_orange.png" alt="icon"></a>
+				<!--end!-->
+			</div>
+
+			<!--Navbar collapse-->
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right user">
+						<li><a href="dang-ky.html"><span class="glyphicon glyphicon-user"></span> Đăng ký</a></li>
+						<li><a href="dang-nhap.html"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+				</ul>
+			</div>
+			
+			<hr>
+			<!--Navbar Pills-->
+			<div>
+				<ul class="nav nav-pills nav-justified">
+					<li class="active"><a href="index.html"><span>Đang chiếu</span></a></li>
+					<li><a href="sap-chieu.html"><span>Sắp chiếu</span></a></li>
+					<li><a href="danh-gia.html"><span>Đánh giá</span></a></li>
+					<li><a href="khuyen-mai.html"><span>Khuyến mãi</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<!-- Tiêu đề -->
+		<div class="row">
+			<div id="movietitle">
+				<h3><b>Trolls - Quỹ lùn</b></h3>
+				<h4>2016</h4>
+				<h4>Hoạt hình / Phiêu lưu / Viễn tưởng</h4>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-lg-5">
+				<img id ="movieposter" class="img-responsive" src="images/trolls.jpg" alt="Trolls Poster">
+			</div>
+			<div class="col-xs-6 col-sm-6 col-lg-7">
+				<div id="movieinfo">
+					<span>Loại: 2D</span><br><br>
+					<span>Thời lượng: 120 phút</span><br><br>
+					<span>Khởi chiếu: 01/12/2016</span><br><br>
+					<span><p><img src="images/star.png" alt="star" style="float:left;width:16px;height:16px;"><b>  6.7 IMDb</b></p></span>
+				</div>
+			</div>
+		</div>
+
+		<!-- Lịch chiếu -->
+		<div class="row">
+			<div id="movietitle">
+				<p>Lịch chiếu</p>
+			</div>
+			<div>
+				<ul style="font-size: 13px; font-weight: bold;" type="sqare">
+					<li>2D Phụ đề</li>
+				</ul>
+
+				<table class="table table-bordered showstime">
+					<thead>
+						<tr>
+							<th>Rạp</th>
+							<th>12/12/2016</th>
+							<th>13/12/2016</th>
+							<th>14/12/2016</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>CGV</td>
+							<td>
+								<span class="groove">10:30</span>
+								<span class="groove">11:30</span>
+								<span class="groove">13:15</span>
+								<span class="groove">16:15</span>
+							</td>
+							<td>
+								<span class="groove">10:30</span>
+								<span class="groove">11:30</span>
+								<span class="groove">13:15</span>
+								<span class="groove">15:15</span>
+							</td>
+							<td>
+								<span class="groove">10:30</span>
+								<span class="groove">11:30</span>
+								<span class="groove">13:15</span>
+								<span class="groove">17:15</span>
+							</td>
+						</tr>
+						<tr>
+							<td>Galaxy</td>
+							<td>
+								<span class="groove">10:30</span>
+								<span class="groove">11:30</span>
+								<span class="groove">13:15</span>
+								<span class="groove">16:15</span>
+							</td>
+							<td>
+								<span class="groove">10:30</span>
+								<span class="groove">11:30</span>
+								<span class="groove">13:15</span>
+								<span class="groove">15:15</span>
+							</td>
+							<td>
+								<span class="groove">10:30</span>
+								<span class="groove">11:30</span>
+								<span class="groove">13:15</span>
+								<span class="groove">17:15</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- Ảnh -->
+		<div class="row">
+			<div id="movietitle">
+				<p>Ảnh</p>
+			</div>
+			<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+			    <div class="slides"></div>
+			    <h3 class="title"></h3>
+			    <a class="prev">‹</a>
+			    <a class="next">›</a>
+			    <a class="close">×</a>
+			    <a class="play-pause"></a>
+			    <ol class="indicator"></ol>
+			</div>
+			<div id="links">
+			    <a href="images/troll1.jpg" title="troll1">
+			        <img src="images/troll1.jpg" alt="troll1" width="70" height="70">
+			    </a>
+			    <a href="images/troll2.jpg" title="troll2">
+			        <img src="images/troll2.jpg" alt="troll2" width="70" height="70">
+			    </a>
+			    <a href="images/troll3.jpg" title="troll3">
+			        <img src="images/troll3.jpg" alt="troll3" width="70" height="70">
+			    </a>
+			    <a href="images/troll4.jpg" title="troll4">
+			        <img src="images/troll4.jpg" alt="troll4" width="70" height="70">
+			    </a>
+			    <a href="images/troll5.jpg" title="troll5">
+			        <img src="images/troll5.jpg" alt="troll5" width="70" height="70">
+			    </a>
+			    <a href="images/troll6.jpg" title="troll6">
+			        <img src="images/troll6.jpg" alt="troll6" width="70" height="70">
+			    </a>
+			    <a href="images/troll7.jpg" title="troll7">
+			        <img src="images/troll7.jpg" alt="troll7" width="70" height="70">
+			    </a>
+			    <a href="images/troll8.jpg" title="troll8">
+			        <img src="images/troll8.jpg" alt="troll8" width="70" height="70">
+			    </a>
+			    <a href="images/troll9.jpg" title="troll9">
+			        <img src="images/troll9.jpg" alt="troll9" width="70" height="70">
+			    </a>
+			    <a href="images/troll10.jpg" title="troll10">
+			        <img src="images/troll10.jpg" alt="troll10" width="70" height="70">
+			    </a>
+			</div>
+		</div>
+
+		<!-- Video trailer -->
+		<div class="row">
+			<div id="movietitle">
+				<p>Trailer</p>
+			</div>
+			<video controls>
+				<source src="videos/Trolls.mp4" type="video/mp4">
+				<source src="videos/Trolls.ogg" type="video/ogg">
+			</video>
+		</div>
+
+		<!-- Nội dung phim -->
+		<div class="row">
+			<div id="movietitle">
+				<p>Nội dung</p>
+			</div>
+			<div id="moviedes">
+				<p>
+					Quỷ lùn Troll - loài sinh vật sống ôn hoà, yêu nhảy múa, hát ca, nhưng đồng thời là con mồi yêu thích của các Bergen. Bergen vốn là một giống loài xấu xí, không bao giờ biết đến hạnh phúc, và chỉ tìm thấy niềm vui mỗi khi được ăn thịt các Troll.
+				</p>
+				<p>
+					Dưới sự lãnh đạo của nhà vua Peppy, các Troll rốt cuộc cũng thoát khỏi cảnh “nằm trên bàn tiệc”. Bẵng đi 20 năm, vương quốc quỷ lùn quyết định mở bữa đại tiệc để kỷ niệm quãng thời gian an lành, hạnh phúc. Toàn bộ vương quốc, đặc biệt là công chúa Poppy, đều mong đến ngày trọng đại. Chỉ còn chàng lùn cục mịch Branch thì không, bởi cậu vốn ghét đám đông và sự ồn ào.
+				</p>
+				<p>
+					Và cũng chính sự ồn ào đó cùng những màn bắn pháo hoa rực rỡ đã khiến một ả đầu bếp của Bergen tìm ra chỗ đám quỷ lùn đang trú ẩn. Lúc này, Poppy và Branch trở thành đôi bạn đồng hành bất đắc dĩ trong cuộc giải cứu vương quốc.
+				</p>
+			</div>
+		</div>
+		<!-- Diễn viên -->
+		<div class="row">
+			<div id="movietitle">
+				<p>Diễn viên</p>
+			</div>
+			<div id="cast">
+				<div>
+					<img src="images/Anna Kendrick.jpg" alt="Anna Kendrick" ><span id="castname">Anna Kendrick ... Poppy (voice)</span>
+				</div><br>
+				<div>
+					<img src="images/Justin Timberlake.jpg" alt="Justin Timberlake"><span id="castname">Justin Timberlake ... Branch (voice)</span>
+				</div><br>
+				<div>
+					<img src="images/Zooey Deschanel.jpg" alt="Zooey Deschanel"><span id="castname">Zooey Deschanel ... Bridget (voice)</span>
+				</div><br>
+				<div>
+					<img src="images/Gwen Stefani.jpg" alt="Gwen Stefani"><span id="castname">Gwen Stefani ... DJ Suki (voice)</span>
+				</div>
+				<div><br>
+					<img src="images/Kunal Nayyar.jpg" alt="Kunal Nayyar"><span id="castname">Kunal Nayyar ... Guy Diamond (voice)</span>
+				</div>
+			</div>
+		</div>
+		<!-- Bình luận-->
+		<div class="detailBox">
+    		<div class="titleBox">
+      			<label>Bình luận</label>
+        		<button type="button" class="close" aria-hidden="true">&times;</button>
+   			</div>
+    		<!-- <div class="commentBox">
+        		<p class="taskDescription">Hãy để lại suy nghĩ của bạn ở bên dưới.</p>
+    		</div> -->
+	    	<div class="actionBox">
+	        	<ul class="commentList">
+		            <li>
+		                <div class="commenterImage">
+		                  <img src="images/boy.png" />
+		                </div>
+		                <div class="commentText">
+		                    <p class="">Trailer coi bộ hay.</p> <span class="date sub-text">on December 5th, 2016</span>
+
+		                </div>
+		            </li>
+		            <li>
+		                <div class="commenterImage">
+		                  <img src="images/boy.png" />
+		                </div>
+		                <div class="commentText">
+		                    <p class="">Wow! Phải đi xem thôi!</p> <span class="date sub-text">on December 5th, 2016</span>
+
+		                </div>
+		            </li>
+		            <li>
+		                <div class="commenterImage">
+		                  <img src="images/girl.png" />
+		                </div>
+		                <div class="commentText">
+		                    <p class="">Phim chắc hay đấy!</p> <span class="date sub-text">on December 5th, 2016</span>
+
+		                </div>
+		            </li>
+	        	</ul>
+		        <form class="form-inline" role="form">
+		            <div class="form-group">
+		                <input class="form-control" type="text" placeholder="Bình luận tại đây" />
+		            </div>
+		            <div class="form-group">
+		                <button class="btn btn-default">Gửi</button>
+		            </div>
+		        </form>
+	    	</div>
+		</div>
+		
+		<div><hr></div>
+		<!--Kết thúc nội dung trang web-->
+
+		<!--Phần footer-->
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
+				<p>Đồ án Giao Tiếp Người Máy</p>
+				<p>Website xem lịch chiếu phim 247</p>
+				<p>Design by <b>Nhóm 11</b></p>
+			</div>
+		</div>
+		<!--Kết thúc phần footer-->
+
+	</div>
+
+	
+	<!-- Javascript để hiển thị ảnh -->
+	<script>
+		document.getElementById('links').onclick = function (event) {
+	    	event = event || window.event;
+	    	var target = event.target || event.srcElement,
+	        link = target.src ? target.parentNode : target,
+	        options = {index: link, event: event},
+	        links = this.getElementsByTagName('a');
+	    	blueimp.Gallery(links, options);
+		};
+	</script>
+	<script>
+		blueimp.Gallery(
+	    	document.getElementById('links').getElementsByTagName('a'),
+	    	{
+	        	container: '#blueimp-gallery-carousel',
+	        	carousel: true
+	    	}
+	);
+	</script>
+</body>
+</html>

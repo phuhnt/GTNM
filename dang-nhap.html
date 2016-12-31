@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Lịch chiếu phim rạp | Xem lịch chiếu phim</title>
+
+	<!--Tích hợp bộ CSS của bootstrap-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<!--Css tự định nghĩa-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--Tích hợp jQuery-->
+	<script scr="js/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!--Tích hợp bộ JS của bootstrap-->
+	<script scr="js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<!--Navbar header & brand-->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+				</button>
+				<!--Navbar brand-->
+				<a class="navbar-brand" href="index.html"><img src="images/icon_orange.png" alt="icon" width="240" height="50"></a>
+				<!--end!-->
+			</div>
+
+			<!--Navbar collapse-->
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right user">
+						<li><a href="dang-ky.html"><span class="glyphicon glyphicon-user"></span> Đăng ký</a></li>
+						<li class="active"><a href="dang-nhap.html"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+				</ul>
+			</div>
+			
+			<hr>
+			<!--Navbar Pills-->
+			<div>
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="index.html"><span>Đang chiếu</span></a></li>
+					<li><a href="sap-chieu.html"><span>Sắp chiếu</span></a></li>
+					<li><a href="danh-gia.html"><span>Đánh giá</span></a></li>
+					<li><a href="khuyen-mai.html"><span>Khuyến mãi</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="container-fluid">
+			
+			<!--Nội dung trang web-->
+			<div class="row">
+		        <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4">
+		            <h1 class="text-center login-title">Vui lòng đăng nhập vào hệ thống Phim 247</h1>
+		            <div class="account-wall">
+		                <img class="profile-img" src="images/icon_orange.png" alt="icon_phim247">
+		                <form class="form-signin">
+		                	<input type="text" class="form-control" placeholder="Email" required autofocus>
+		                	<input type="password" class="form-control" placeholder="Password" required>
+		                	<button class="btn btn-lg btn-primary btn-block" type="submit">Đăng nhập</button>
+		                <label class="checkbox pull-left">
+		                    <input type="checkbox" value="remember-me">
+		                    Nhớ mật khẩu
+		                </label>
+		                <a href="#" class="pull-right need-help">Quên mật khẩu? </a><span class="clearfix"></span>
+		                </form>
+		            </div>
+		            <a href="dang-ky.html" class="text-center new-account">Tạo tài khoản </a>
+		        </div>
+		    </div><br><br><br>
+			<!--Kết thúc nội dung trang web-->
+
+			<!--Phần footer-->
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
+					<p>Đồ án Giao Tiếp Người Máy</p>
+					<p>Website xem lịch chiếu phim 247</p>
+					<p>Design by <b>Nhóm 11</b></p>
+				</div>
+			</div>
+			<!--Kết thúc phần footer-->
+	</div>
+
+</body>
+
+</html>
