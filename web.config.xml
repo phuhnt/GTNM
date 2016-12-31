@@ -3,7 +3,7 @@
     <system.webServer>
       <staticContent>
         <mimeMap fileExtension=".mp4" mimeType="video/mp4"/>
-        <mimeMap fileExtension=".ogv" mimeType="video/ogg"/>
+        <mimeMap fileExtension=".ogg" mimeType="video/ogg"/>
         <mimeMap fileExtension=".webm" mimeType="video/webm"/>
       </staticContent>
     </system.webServer>
